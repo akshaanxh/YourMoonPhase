@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Moon Phase Viewer</title>
+  <link rel="icon" type="image/png" href="assets/moonfavicon.png" />
+
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 🎥 Starry Video Background -->
+  <video autoplay muted loop id="bgVideo">
+    <source src="assets/starrynight.mp4" type="video/mp4" />
+  </video>
+
+  <!-- 🎵 Background Music -->
+  <audio id="bgMusic" loop>
+    <source src="assets/spacesound.mp3" type="audio/mp3">
+  </audio>
+
+  <div class="container">
+    <h1>Moon Phase Viewer</h1>
+    <button id="startBtn">Start Experience</button>
+    <canvas id="moonCanvas"></canvas>
+
+    <form id="moonForm">
+        <input type="text" id="nameInput" placeholder="Your Name" required />
+        <input type="date" id="dobInput" required />
+        <input type="text" id="locationInput" placeholder="Your Location (e.g., Delhi)" required />
+        <button type="submit">See My Moon Phase</button>
+    </form>
+
+
+    <div id="message"></div>
+
+    <div id="shareLinkDiv" style="margin-top: 1rem;"></div>
+    <div id="shareButtons" style="display:none; margin-top: 1em;">
+    <p><strong>Share your moon phase:</strong></p>
+    <a id="whatsappShare" href="#" target="_blank">📲 WhatsApp</a> |
+    <a id="twitterShare" href="#" target="_blank">🐦 Twitter</a> |
+    <a id="facebookShare" href="#" target="_blank">📘 Facebook</a>
+</div>
+
+
+    
+
+  </div>
+
+  <!-- Scripts -->
+  <!-- Three.js Core -->
+<!-- Load THREE.js -->
+<script src="https://unpkg.com/three@0.160.1/build/three.min.js" defer></script>
+
+<!-- Load OrbitControls globally -->
+<script src="https://unpkg.com/three@0.160.1/examples/js/controls/OrbitControls.js" defer></script>
+
+<!-- Load SunCalc -->
+<script src="https://cdn.jsdelivr.net/npm/suncalc@1.9.0/suncalc.js" defer></script>
+
+<!-- Load Your Custom JS (AFTER everything else) -->
+<script src="script.js" defer></script>
+
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+
+</body>
+</html>

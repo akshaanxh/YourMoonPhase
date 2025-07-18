@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  overflow: auto;
+  color: white;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  padding-top: 5rem;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: white;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+  z-index: 3;
+  position: relative;
+}
+
+#bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#startBtn {
+  margin-bottom: 1rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #ffffff15;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+canvas {
+  width: 80vw;
+  height: 80vw;
+  max-width: 400px;
+  max-height: 400px;
+  display: block;
+  margin: 1rem auto;
+  background: rgba(0,0,0,0.2); /* Helps visually check it's rendering */
+}
+
+
+canvas {
+  background-color: rgba(0, 0, 0, 0.3); /* semi-transparent bg for visibility */
+  z-index: 2;
+  position: relative;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 250px;
+  margin: 1rem auto;
+}
+
+input, button {
+  padding: 0.6rem;
+  border: none;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+#shareButtons a {
+  padding: 10px 10px;
+  margin: 5px;
+  background-color: #444;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+#shareButtons a:hover {
+  background-color: #666;
+}
