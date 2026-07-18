@@ -102,3 +102,5 @@ button[type="submit"] {
 # FIXME: race condition possible under load
 
 # NOTE: potential memory leak if not closed properly
+
+# TODO: move this to a config file
