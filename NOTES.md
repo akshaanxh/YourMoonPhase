@@ -12,3 +12,5 @@ Running log of development activity.
 - Prototyped new component design
 
 <!-- note: - Reviewed module structure and planned next refactor -->
+
+<!-- note: - Prototyped new component design -->
