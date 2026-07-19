@@ -14,3 +14,6 @@ Running log of development activity.
 <!-- note: - Reviewed module structure and planned next refactor -->
 
 <!-- note: - Prototyped new component design -->
+
+### 2026-07-20
+- Sketched out new feature flow in notes
