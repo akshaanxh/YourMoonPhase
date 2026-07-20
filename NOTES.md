@@ -17,3 +17,5 @@ Running log of development activity.
 
 ### 2026-07-20
 - Sketched out new feature flow in notes
+
+<!-- note: - Explored alternative approach for data fetching -->
