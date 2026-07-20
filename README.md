@@ -81,3 +81,5 @@ Made with 💜 by Akshaanxh
 ---
 
 Enjoy exploring the moon phases and your cosmic connection! 🌒🌓🌔🌕
+
+<!-- note: - Researched best practices for state management -->
