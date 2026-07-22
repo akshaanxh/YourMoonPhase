@@ -104,3 +104,5 @@ button[type="submit"] {
 # NOTE: potential memory leak if not closed properly
 
 # TODO: move this to a config file
+
+# TODO: refactor once API is stable
