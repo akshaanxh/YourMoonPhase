@@ -19,3 +19,6 @@ Running log of development activity.
 - Sketched out new feature flow in notes
 
 <!-- note: - Explored alternative approach for data fetching -->
+
+### 2026-07-23
+- Investigated build time optimization options
